@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=JediMindTrick(boolean)
+comment1.params=
+comment1.target=JediMindTrick()
+comment2.params=board
+comment2.target=double\ rateBoard(Board)
+comment2.text=\n\ \ \ \ \ \ A\ simple\ brain\ function.\n\ \ \ \ \ \ Given\ a\ board,\ produce\ a\ number\ that\ rates\n\ \ \ \ \ \ that\ board\ position\ --\ larger\ numbers\ for\ worse\ boards.\n\ \ \ \ \ \ This\ version\ just\ counts\ the\ height\n\ \ \ \ \ \ and\ the\ number\ of\ "holes"\ in\ the\ board.\n\ \ \ \ \ \ See\ Tetris-Architecture.html\ for\ brain\ ideas.\n
+numComments=3

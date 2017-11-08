@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=board
+comment0.target=double\ rateBoard(Board)
+comment0.text=\n\ \ A\ simple\ brain\ function.\n\ \ Given\ a\ board,\ produce\ a\ number\ that\ rates\n\ \ that\ board\ position\ --\ larger\ numbers\ for\ worse\ boards.\n\ \ This\ version\ just\ counts\ the\ height\n\ \ and\ the\ number\ of\ "holes"\ in\ the\ board.\n\ \ See\ Tetris-Architecture.html\ for\ brain\ ideas.\n
+numComments=1
