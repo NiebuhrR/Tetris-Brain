@@ -1,4 +1,6 @@
 
+import static java.lang.Math.*
+
 /**
  A simple Brain implementation.
  bestMove() iterates through all the possible x values
@@ -78,33 +80,83 @@ public class LameBrain implements Brain {
   and the number of "holes" in the board.
   See Tetris-Architecture.html for brain ideas.
  */
- public double rateBoard(Board board) {
-  final int width = board.getWidth();
-  final int maxHeight = board.getMaxHeight();
-  
-  int sumHeight = 0;
-     int holes = 0;
-  
-  // Count the holes, and sum up the heights
-  for (int x=0; x<width; x++) {
-   final int colHeight = board.getColumnHeight(x);
-   sumHeight += colHeight;
-   
-   int y = colHeight - 2; // addr of first possible hole
-   
-   while (y>=0) {
-    if  (!board.getGrid(x,y)) {
-     holes++;
-    }
-    y--;
+// public double rateBoard(Board board) {
+//  final int width = board.getWidth();
+//  final int maxHeight = board.getMaxHeight();
+//
+//  int sumHeight = 0;
+//     int holes = 0;
+//
+//  // Count the holes, and sum up the heights
+//  for (int x=0; x<width; x++) {
+//   final int colHeight = board.getColumnHeight(x);
+//   sumHeight += colHeight;
+//
+//   int y = colHeight - 2; // addr of first possible hole
+//
+//   while (y>=0) {
+//    if  (!board.getGrid(x,y)) {
+//     holes++;
+//    }
+//    y--;
+//   }
+//  }
+//
+//  double avgHeight = ((double)sumHeight)/width;
+//
+//  // Add up the counts to make an overall score
+//  // The weights, 8, 40, etc., are just made up numbers that appear to work
+//  return (8*maxHeight + 40*avgHeight + 1.25*holes);
+// }
+
+
+// RateBoard: Grace Punzalan & Quyen Ha
+public double rateBoard(Board board) {
+ final int width = board.getWidth();
+ final int height = board.getHeight();
+ final int maxHeight = board.getMaxHeight();
+
+ int sumHeight = 0;
+ int holes = 0;
+ int completeLines = 0;
+ int bumpiness = 0;
+
+ // Count the holes, and sum up the heights
+ for (int x=0; x<width; x++) {
+  final int colHeight = board.getColumnHeight(x);
+  sumHeight += colHeight;
+
+  int y = colHeight - 2; // addr of first possible hole
+
+  while (y>=0) {
+   if  (!board.getGrid(x,y)) {
+    holes++;
    }
+   y--;
   }
-  
-  double avgHeight = ((double)sumHeight)/width;
-  
-  // Add up the counts to make an overall score
-  // The weights, 8, 40, etc., are just made up numbers that appear to work
-  return (8*maxHeight + 40*avgHeight + 1.25*holes); 
  }
+
+
+//calculating the complete lines
+ for(int y = 0; y < maxHeight; y++){
+   int filledRow = board.getRowWidth(y);
+   if(filledRow == width){
+     completeLines++
+   }
+ }
+
+//calculate the bumpiness: the accumulated change in column height
+ for(int x = 1; x < width; x++){
+  int colHeightPrev = board.getColumnHeight(x-1);
+  int colHeightCurr = board.getColumnHeight(x);
+
+  bumpiness += Math.abs(colHeightCurr - colHeightPrev);
+ }
+
+
+ // Add up the counts to make an overall score
+ // The weights, 8, 40, etc., are just made up numbers that appear to work
+ return (30*holes + 40*sumHeight + 0.25*completeLines + 20 * bumpiness + 10*maxHeight);
+}
 
 }
