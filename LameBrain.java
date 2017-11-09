@@ -112,51 +112,71 @@ public class LameBrain implements Brain {
 
 // RateBoard: Grace Punzalan & Quyen Ha
 public double rateBoard(Board board) {
- final int width = board.getWidth();
- final int height = board.getHeight();
- final int maxHeight = board.getMaxHeight();
+    final int width = board.getWidth();
+    final int height = board.getHeight();
+    final int maxHeight = board.getMaxHeight();
 
- int sumHeight = 0;
- int holes = 0;
- int completeLines = 0;
- int bumpiness = 0;
+    int sumHeight = 0;
+    int holes = 0;
+    int completeLines = 0;
+    int bumpiness = 0;
+    int rowTransitions = 0;
+    int columnTransition = 0;
 
- // Count the holes, and sum up the heights
- for (int x=0; x<width; x++) {
-  final int colHeight = board.getColumnHeight(x);
-  sumHeight += colHeight;
+    // Count the holes, and sum up the heights
+    for (int x=0; x<width; x++) {
+        final int colHeight = board.getColumnHeight(x);
+        sumHeight += colHeight;
 
-  int y = colHeight - 2; // addr of first possible hole
+        int y = colHeight - 2; // addr of first possible hole
 
-  while (y>=0) {
-   if  (!board.getGrid(x,y)) {
-    holes++;
-   }
-   y--;
-  }
- }
-
-
-//calculating the complete lines
- for(int y = 0; y < maxHeight; y++){
-   int filledRow = board.getRowWidth(y);
-   if(filledRow == width){
-     completeLines++
-   }
- }
-
-//calculate the bumpiness: the accumulated change in column height
- for(int x = 1; x < width; x++){
-  int colHeightPrev = board.getColumnHeight(x-1);
-  int colHeightCurr = board.getColumnHeight(x);
-
-  bumpiness += Math.abs(colHeightCurr - colHeightPrev);
- }
+        while (y>=0) {
+            if  (!board.getGrid(x,y)) {
+                holes++;
+            }
+            y--;
+        }
+    }
 
 
- // Add up the counts to make an overall score
- // The weights, 8, 40, etc., are just made up numbers that appear to work
- return (30*holes + 40*sumHeight + 0.25*completeLines + 20 * bumpiness + 10*maxHeight);
-}
+    //calculating the complete lines
+    for(int y = 0; y < maxHeight; y++){
+        int filledRow = board.getRowWidth(y);
+        if(filledRow == width){
+            completeLines++
+        }
+    }
 
+    //calculate the bumpiness: the accumulated change in column height
+    for(int x = 1; x < width; x++){
+        int colHeightPrev = board.getColumnHeight(x-1);
+        int colHeightCurr = board.getColumnHeight(x);
+
+        bumpiness += Math.abs(colHeightCurr - colHeightPrev);
+    }
+
+    //calculate the row and column transition: number of filled cell adjacent to empty cell
+    //summed over all rows and columns
+    for (x = 0; x < width; x++) {
+        final int colHeight = board.getColumnHeight(x);
+        
+        for (y = 0; y < colHeight; y++) {
+            if (board.getGrid(x, y)) {
+                if (x > 0 && !board.getGrid(x-1, y)) {
+                    rowTransitions++;
+                }
+                if (x < width - 1 && !board.getGrid(x+1, y)) {
+                    rowTransitions++;
+                }
+                if (y > 0 && !board.getGrid(x, y-1)){
+                    columnTransition++;
+                }
+                if (y < height - 1 && !board.getGrid(x, y+1)){
+                    columnTransition++;
+                }
+
+    // Add up the counts to make an overall score
+    return (20*holes + 40*sumHeight + 0.25*completeLines + 30 * bumpiness + 10*maxHeight + 10*rowTransitions
+            + 30*columnTransition);
+    }
 }
