@@ -159,9 +159,9 @@ public double rateBoard(Board board) {
     // calculate the row and column transition: number of filled cell adjacent to empty cell
     // summed over all rows and columns (border of the board is counted as a filled cell)
     for (x = 0; x < width; x++) {
-        
+
         final int colHeight = board.getColumnHeight(x);
-        
+
         for (y = 0; y < colHeight; y++) {
             // if the cell is filled
             if (board.getGrid(x, y)) {
@@ -182,35 +182,41 @@ public double rateBoard(Board board) {
                     columnTransition++;
                 }
             }
-        }
+
 
     // calculate the number of wells: empty cells such that the left and right cells are
     // both filled (border of the board is counted as a filled cell)
-        for (x = 0; x < width; x++) {
-            for (y = 0; y < height; y++) {
                 // if the cell is empty
-                if !board.getGrid(x, y) {
-                    // if the emtpy cell is at index 0,
-                    // treat the border as a filled cell, if the next cell is filled
-                    if x = 0 && board.getGrid(x+1, y) {
-                        wells++;
-                    }
-                    // if the cell to the right and to the left of empty cell are both filled
-                    if x > 0 && board.getGrid(x-1, y) && board.getGrid(x+1, y) {
-                        wells++;
-                    }
-                    // if the empty cell is at the last index
-                    // treat the border as a filled cell, if the cell to the left is filled
-                    if x = width - 1 && board.getGrid(x-1, y) && !board.getGrid(x, y+1) {
-                        wells++;
-                    }
+            if (!board.getGrid(x, y) && x >= colHeight - 1) {
+                // if the emtpy cell is at index 0,
+                // treat the border as a filled cell, if the next cell is filled
+                if (x = 0 && board.getGrid(x+1, y) ) {
+                    wells++;
+                }
+                // if the cell to the right and to the left of empty cell are both filled
+                if (x > 0 && board.getGrid(x-1, y) && board.getGrid(x+1, y)) {
+                    wells++;
+                }
+                // if the empty cell is at the last index
+                // treat the border as a filled cell, if the cell to the left is filled
+                if (x = width - 1 && board.getGrid(x-1, y) && !board.getGrid(x, y+1)) {
+                    wells++;
                 }
             }
+
+
+
+            // hole depth
+
         }
+    }
+
+    // height of the column if the piece
+
         
     // Add up the counts to make an overall score
-    return (99*holes + 20*sumHeight + 10*maxHeight +
-            10*bumpiness + 0.25*completeLines +
-            29*rowTransitions + 29*columnTransition + 37*wells);
+    return (45*holes + 15*sumHeight + 30*maxHeight +
+            10*bumpiness - 0.25*completeLines +
+            29*rowTransitions + 29*columnTransition + 30* wells);
     }
 }
