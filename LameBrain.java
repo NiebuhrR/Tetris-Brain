@@ -192,11 +192,11 @@ public double rateBoard(Board board) {
                 if !board.getGrid(x, y) {
                     // if the emtpy cell is at index 0,
                     // treat the border as a filled cell, if the next cell is filled
-                    if x = 0 && board.getGrid(x+1, y) && !board.getGrid(x, y+1) {
+                    if x = 0 && board.getGrid(x+1, y) {
                         wells++;
                     }
                     // if the cell to the right and to the left of empty cell are both filled
-                    if x > 0 && board.getGrid(x-1, y) && board.getGrid(x+1, y) && !board.getGrid(x, y+1) {
+                    if x > 0 && board.getGrid(x-1, y) && board.getGrid(x+1, y) {
                         wells++;
                     }
                     // if the empty cell is at the last index
@@ -209,8 +209,8 @@ public double rateBoard(Board board) {
         }
         
     // Add up the counts to make an overall score
-    return (99*holes + 7*sumHeight + 10*maxHeight +
-            20*bumpiness + 0.25*completeLines +
-            39*rowTransitions + 59*columnTransition + 47*wells);
+    return (99*holes + 20*sumHeight + 10*maxHeight +
+            10*bumpiness + 0.25*completeLines +
+            29*rowTransitions + 29*columnTransition + 37*wells);
     }
 }
