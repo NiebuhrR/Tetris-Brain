@@ -190,10 +190,17 @@ public double rateBoard(Board board) {
         int columnTransition = 0;
         int wells = 0;
         int filledAboveHoles = 0;
-        int horHoles = 0;
+        int rowsWithHoles = 0;
         double averageHeight = 0;
+        boolean[] areHoles = new boolean[maxHeight];
 
-        // Count the holes, and sum up the heights
+        // initialize all the cells below maxHeight to be filled
+        for(int y = 0; y < maxHeight; y++) {
+            areHHoles[y] = false;
+        }
+
+
+        // count the holes and sum the heights
         for (int x = 0; x < width; x++) {
             // find the column height and add them to sumHeight
             int colHeight = board.getColumnHeight(x);
@@ -203,30 +210,23 @@ public double rateBoard(Board board) {
             while (y >= 0) {
                 if (!board.getGrid(x, y)) {
                     holes++;
+                    areHoles[y] = true;
                 }
                 y--;
             }
         }
 
-        // Count the consecutive horizontal holes
-        for (int x = 0; x < width; x++) {
-            // find the column height
-            int colHeight = board.getColumnHeight(x);
-            // address of the first possible hole
-            int y = colHeight - 2;
-            // initialize consecutiveHole to false
-            boolean consecutiveHole = false;
-            while (y >= 0) {
-                if (!board.getGrid(x, y)) {
-                    if (!consecutiveHole) {
-                        horHoles++;
-                        consecutiveHole = true;
-                    }
-                } else {
-                    consecutiveHole = false;
-                }
+        // count the number of rows that have at least one hole
+        for(int y = 0; y < maxHeight; y++) {
+            if (areHoles[y]) {
+                rowsWithHoles += 1;
             }
         }
+
+
+
+        // calculate the average height
+        averageHeight = sumHeight/board.getWidth();
 
         // calculating the complete lines that will be eliminated
         for (int y = 0; y < maxHeight; y++) {
@@ -275,31 +275,6 @@ public double rateBoard(Board board) {
             }
         }
 
-        // calculate the number of wells: empty cells such that the left and right cells
-        // are both filled (border of the booard is counted as a filled cell)
-        for (int x = 0; x < width; x++) {
-            for (int y = 0; y < height; y++) {
-                int colHeight = board.getColumnHeight(x);
-                // if the cell is empty and it is above column Height
-                if (!board.getGrid(x, y) && x >= colHeight - 1) {
-                    // if the emtpy cell is at index 0,
-                    // treat the border as a filled cell, if the next cell is filled
-                    if (x = 0 && board.getGrid(x + 1, y)) {
-                        wells++;
-                    }
-                    // if the cell to the right and to the left of empty cell are both filled
-                    if (x > 0 && board.getGrid(x - 1, y) && board.getGrid(x + 1, y)) {
-                        wells++;
-                    }
-                    // if the empty cell is at the last index
-                    // treat the border as a filled cell, if the cell to the left is filled
-                    if (x = width - 1 && board.getGrid(x - 1, y) && !board.getGrid(x, y + 1)) {
-                        wells++;
-                    }
-                }
-            }
-        }
-
         // calculate the number of filled cells above holes
         for (int x = 0; x < width; x++) {
             // initialize the number of filled cells above holes in this column to 0
@@ -313,23 +288,47 @@ public double rateBoard(Board board) {
                     // there is a hole
                     isHole = true;
                 }
-                // if the cell is filled, does not add 1
-                // if the cell is empty, increment filledAboveHolesColumn by 1
+                // if the cell is empty, does not add 1
+                // if the cell is filled, increment filledAboveHolesColumn by 1
                 filledAboveHolesColumn += isHole ? 0 : 1;
             }
-          // if there is no hole in the entire column, there is no filled cell above holes
+            // if there is no hole in the entire column, there is no filled cell above holes
             if (!isHole) {
                 filledAboveHolesColumn = 0;
             }
             filledAboveHoles += filledAboveHolesColumn;
         }
 
-    averageHeight = sumHeight/board.getWidth();
+        // calculate the number of wells: empty cells where both their left and right are filled
+        // board border is counted all filled cell
+        for (int x = 0; x < width; x++) {
+            for (int y = 0; y < maxHeight; y++) {
+                int colHeight = board.getColumnHeight(x);
+                // if the cell is empty and it is above column Height
+                if (!board.getGrid(x, y) && y >= colHeight - 1) {
+                    // if the emtpy cell is at index 0,
+                    // treat the border as a filled cell, add to wells if the next cell is filled
+                    if (x = 0 && board.getGrid(x + 1, y)) {
+                        wells++;
+                    }
+                    // if the cell to the right and to the left of empty cell are both filled
+                    // increament wells
+                    if (x > 0 && board.getGrid(x - 1, y) && board.getGrid(x + 1, y)) {
+                        wells++;
+                    }
+                    // if the empty cell is at the last index
+                    // treat the border as a filled cell, if the cell to the left is filled
+                    // increment wells
+                    if (x = width - 1 && board.getGrid(x - 1, y) && !board.getGrid(x, y + 1)) {
+                        wells++;
+                    }
+                }
+            }
+        }
 
-    // Add up the counts to make an overall score
-    return(99*holes + 30*averageHeight
-            2*bumpiness - 10*completeLines +
-            59*rowTransitions + 59*columnTransition +
-            45*wells + 19*filledAboveHoles + 47*horHoles);
+         return(99*holes + 10*maxHeight + 20*averageHeight
+                10*bumpiness + 0.25*completeLines +
+                59*rowTransitions + 59*columnTransition +
+                65*wells + 29*filledAboveHoles + 29*rowsWithHoles);
 }
 
