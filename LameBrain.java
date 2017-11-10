@@ -196,9 +196,8 @@ public double rateBoard(Board board) {
 
         // initialize all the cells below maxHeight to be filled
         for(int y = 0; y < maxHeight; y++) {
-            areHHoles[y] = false;
+            areHoles[y] = false;
         }
-
 
         // count the holes and sum the heights
         for (int x = 0; x < width; x++) {
@@ -331,4 +330,3 @@ public double rateBoard(Board board) {
                 59*rowTransitions + 59*columnTransition +
                 65*wells + 29*filledAboveHoles + 29*rowsWithHoles);
 }
-
