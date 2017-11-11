@@ -320,7 +320,6 @@ public class JTetrisTrain extends JComponent {
 
     {
 
-
         // Could create a JTetris or JBrainTetris here
         final int pixels = 16;
         final int trials = 100;
@@ -334,9 +333,11 @@ public class JTetrisTrain extends JComponent {
         int totalPieces = 0;
         for (int i = 0; i < trials; i++) {
             tetris.startGame();
+            System.out.println("hello");
             System.out.println(tetris.getPieces());
             totalPieces += tetris.getPieces();
         }
+        
         System.out.println("Average number of pieces: "+(totalPieces/trials));
 
     }

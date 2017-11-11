@@ -1,5 +1,9 @@
 #BlueJ class context
-comment0.params=board
-comment0.target=double\ rateBoard(Board)
-comment0.text=\n\ \ A\ simple\ brain\ function.\n\ \ Given\ a\ board,\ produce\ a\ number\ that\ rates\n\ \ that\ board\ position\ --\ larger\ numbers\ for\ worse\ boards.\n\ \ This\ version\ just\ counts\ the\ height\n\ \ and\ the\ number\ of\ "holes"\ in\ the\ board.\n\ \ See\ Tetris-Architecture.html\ for\ brain\ ideas.\n
-numComments=1
+comment0.target=LameBrain
+comment0.text=\n\ A\ simple\ Brain\ implementation.\n\ bestMove()\ iterates\ through\ all\ the\ possible\ x\ values\n\ and\ rotations\ to\ play\ a\ particular\ piece\ (there\ are\ only\n\ around\ 10-30\ ways\ to\ play\ a\ piece).\n\ \n\ For\ each\ play,\ it\ uses\ the\ rateBoard()\ message\ to\ rate\ how\n\ good\ the\ resulting\ board\ is\ and\ it\ just\ remembers\ the\n\ play\ with\ the\ lowest\ score.\ Undo()\ is\ used\ to\ back-out\n\ each\ play\ before\ trying\ the\ next.\ To\ experiment\ with\ writing\ your\ own\n\ brain\ --\ just\ subclass\ off\ LameBrain\ and\ override\ rateBoard().\n
+comment1.params=board\ piece\ limitHeight\ move
+comment1.target=Brain.Move\ bestMove(Board,\ Piece,\ int,\ Brain.Move)
+comment1.text=\n\ Given\ a\ piece\ and\ a\ board,\ returns\ a\ move\ object\ that\ represents\n\ the\ best\ play\ for\ that\ piece,\ or\ returns\ null\ if\ no\ play\ is\ possible.\n\ See\ the\ Brain\ interface\ for\ details.\n
+comment2.params=board
+comment2.target=double\ rateBoard(Board)
+numComments=3
