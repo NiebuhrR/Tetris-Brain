@@ -75,6 +75,7 @@ public class LameBrain implements Brain {
 
     public double rateBoard(Board board) {
 
+
         final int width = board.getWidth();
         final int height = board.getHeight();
         final int maxHeight = board.getMaxHeight();
@@ -224,7 +225,7 @@ public class LameBrain implements Brain {
         
         // Finding the difference between the lowest ang tallest height
         int minHeight = board.getHeight();
-        for(int x = 0; x < maxHeight; x++ ){
+        for(int x = 0; x < width; x++ ){
            int currColHeight = board.getColumnHeight(x);
            if(currColHeight < minHeight){
                minHeight = currColHeight;

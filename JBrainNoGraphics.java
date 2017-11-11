@@ -40,7 +40,8 @@ implements Brain {
         super(w, h);
         brainActive = true;
         previousCount = count;
-        brains = new JediMindTrick();
+        //brains = new JediMindTrick();
+        brains = new LameBrain();
         gamesPlayed = 0;
         drop = true;
         myOpponent = this; //new Sith(false);

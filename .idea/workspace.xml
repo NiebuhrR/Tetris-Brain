@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e67909d2-5b2b-484f-b28f-3a8cdac2f483" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JTetris$13.class" afterPath="$PROJECT_DIR$/JTetris$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JTetris$14.class" afterPath="$PROJECT_DIR$/JTetris$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JTetris.class" afterPath="$PROJECT_DIR$/JTetris.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JTetrisTrain.class" afterPath="$PROJECT_DIR$/JTetrisTrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LameBrain.class" afterPath="$PROJECT_DIR$/LameBrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JTetris.java" afterPath="$PROJECT_DIR$/JTetris.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JTetrisTrain.java" afterPath="$PROJECT_DIR$/JTetrisTrain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LameBrain.ctxt" afterPath="$PROJECT_DIR$/LameBrain.ctxt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LameBrain.java" afterPath="$PROJECT_DIR$/LameBrain.java" />
+    <list default="true" id="4ba51242-0039-4b2f-8375-ac92ce2638be" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +17,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5651438">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="LameBrain.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="LameBrain.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LameBrain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="791">
-                  <caret line="341" column="43" lean-forward="false" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="43" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JTetrisTrain.ctxt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/JTetrisTrain.ctxt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-278">
+                  <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -51,20 +30,9 @@
           <file leaf-file-name="JTetrisTrain.class" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JTetrisTrain.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="185">
-                  <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JBrainNoGraphics.class" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/JBrainNoGraphics.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2306">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-387">
+                  <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
                   <folding>
-                    <element signature="e#0#8120#0" expanded="true" />
                     <element signature="imports" expanded="true" />
                   </folding>
                 </state>
@@ -74,20 +42,54 @@
           <file leaf-file-name="JBrainNoGraphics.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JBrainNoGraphics.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3049">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-968">
+                  <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
+                    <marker date="1510420730000" expanded="false" signature="7163:7174" ph=" { " />
+                    <marker date="1510420730000" expanded="false" signature="7194:7200" ph=" }" />
+                    <marker date="1510420730000" expanded="false" signature="8146:8157" ph=" { " />
+                    <marker date="1510420730000" expanded="false" signature="8175:8181" ph=" }" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="JTetris.class" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/JTetris.class">
+          <file leaf-file-name="BadBrain.class" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BadBrain.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="385" column="0" lean-forward="false" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+                <state relative-caret-position="165">
+                  <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Brain.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Brain.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LameBrain.ctxt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/LameBrain.ctxt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -96,11 +98,9 @@
           <file leaf-file-name="JBrainTetris.class" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JBrainTetris.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2080">
+                <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#12508#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -108,26 +108,9 @@
           <file leaf-file-name="JediMindTrick.class" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JediMindTrick.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="489">
-                  <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="168" selection-end-column="9" />
+                <state relative-caret-position="256">
+                  <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JTetris.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/JTetris.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="611" column="8" lean-forward="false" selection-start-line="611" selection-start-column="8" selection-end-line="611" selection-end-column="8" />
-                  <folding>
-                    <marker date="1510352221000" expanded="true" signature="19527:19657" ph="{...}" />
-                    <marker date="1510352221000" expanded="false" signature="19587:19610" ph=" { " />
-                    <marker date="1510352221000" expanded="false" signature="19625:19643" ph=" }" />
-                    <marker date="1510352221000" expanded="true" signature="19864:19992" ph="{...}" />
-                    <marker date="1510352221000" expanded="false" signature="19922:19945" ph=" { " />
-                    <marker date="1510352221000" expanded="false" signature="19960:19978" ph=" }" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -135,8 +118,8 @@
           <file leaf-file-name="JTetrisTrain.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/JTetrisTrain.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="331" column="41" lean-forward="false" selection-start-line="331" selection-start-column="41" selection-end-line="331" selection-end-column="41" />
+                <state relative-caret-position="165">
+                  <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -149,9 +132,12 @@
           <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Board.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1305">
+                <state relative-caret-position="685">
                   <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-                  <folding />
+                  <folding>
+                    <marker date="1510419726000" expanded="false" signature="4230:4241" ph=" { " />
+                    <marker date="1510419726000" expanded="false" signature="4388:4399" ph=" { " />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -167,6 +153,8 @@
       <find>hor</find>
       <find>rowWidth</find>
       <find>stopGame</find>
+      <find>Jedi</find>
+      <find>JediM</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,28 +164,6 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/JediMindTrick.class" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/JTetris.java" />
-        <option value="$PROJECT_DIR$/JTetrisTrain.java" />
-        <option value="$PROJECT_DIR$/JTetrisTrain.class" />
-        <option value="$PROJECT_DIR$/LameBrain.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -214,9 +180,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,13 +198,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -377,6 +338,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e67909d2-5b2b-484f-b28f-3a8cdac2f483" name="Default" comment="" />
@@ -389,64 +353,82 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12399000" />
-  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14588235" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1282353" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23472223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14588235" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1282353" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23472223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14588235" sideWeight="0.50277776" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1282353" sideWeight="0.49722221" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23472223" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -478,7 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,7 +475,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -510,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,7 +522,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1510419726000" expanded="false" signature="4230:4241" ph=" { " />
+            <marker date="1510419726000" expanded="false" signature="4388:4399" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -581,7 +564,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +603,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1510419726000" expanded="false" signature="4230:4241" ph=" { " />
+            <marker date="1510419726000" expanded="false" signature="4388:4399" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -636,7 +621,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="698">
           <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1510419726000" expanded="false" signature="4230:4241" ph=" { " />
+            <marker date="1510419726000" expanded="false" signature="4388:4399" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,15 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,14 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BadBrain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -726,16 +694,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2265">
           <caret line="160" column="26" lean-forward="false" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1510419726000" expanded="false" signature="4230:4241" ph=" { " />
+            <marker date="1510419726000" expanded="false" signature="4388:4399" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/ninjamoves.java" />
     <entry file="file://$PROJECT_DIR$/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
+        <state relative-caret-position="685">
           <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-          <folding />
+          <folding>
+            <marker date="1510419726000" expanded="false" signature="4230:4241" ph=" { " />
+            <marker date="1510419726000" expanded="false" signature="4388:4399" ph=" { " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -755,41 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JBrainNoGraphics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3049">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JBrainNoGraphics.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2306">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#8120#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JBrainTetris.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2080">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#12508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JediMindTrick.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="168" selection-end-column="9" />
+        <state relative-caret-position="156">
+          <caret line="209" column="37" lean-forward="false" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -804,39 +747,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JTetris.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="8625">
           <caret line="611" column="8" lean-forward="false" selection-start-line="611" selection-start-column="8" selection-end-line="611" selection-end-column="8" />
-          <folding>
-            <marker date="1510352221000" expanded="true" signature="19527:19657" ph="{...}" />
-            <marker date="1510352221000" expanded="false" signature="19587:19610" ph=" { " />
-            <marker date="1510352221000" expanded="false" signature="19625:19643" ph=" }" />
-            <marker date="1510352221000" expanded="true" signature="19864:19992" ph="{...}" />
-            <marker date="1510352221000" expanded="false" signature="19922:19945" ph=" { " />
-            <marker date="1510352221000" expanded="false" signature="19960:19978" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JTetrisTrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="331" column="41" lean-forward="false" selection-start-line="331" selection-start-column="41" selection-end-line="331" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JTetrisTrain.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+        <state relative-caret-position="-387">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JTetrisTrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBrainTetris.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LameBrain.ctxt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JediMindTrick.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LameBrain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="341" column="43" lean-forward="false" selection-start-line="341" selection-start-column="43" selection-end-line="341" selection-end-column="43" />
+        <state relative-caret-position="-278">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JBrainNoGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-968">
+          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1510420730000" expanded="false" signature="7163:7174" ph=" { " />
+            <marker date="1510420730000" expanded="false" signature="7194:7200" ph=" }" />
+            <marker date="1510420730000" expanded="false" signature="8146:8157" ph=" { " />
+            <marker date="1510420730000" expanded="false" signature="8175:8181" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BadBrain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>

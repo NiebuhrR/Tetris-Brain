@@ -333,7 +333,6 @@ public class JTetrisTrain extends JComponent {
         int totalPieces = 0;
         for (int i = 0; i < trials; i++) {
             tetris.startGame();
-            System.out.println("hello");
             System.out.println(tetris.getPieces());
             totalPieces += tetris.getPieces();
         }
