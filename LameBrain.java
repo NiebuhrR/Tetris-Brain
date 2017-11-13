@@ -247,25 +247,52 @@ public class LameBrain implements Brain {
         features[9] = rowsWithHoles;
         features[10] = heightDiff;
 
-        calculateWeight(features);
+        double[] weights = new double[11];
 
-        double value = 99*holes + 10*maxHeight + 20*averageHeight +
-                10*bumpiness + 0.25*completeLines +
-                59*rowTransitions + 59*columnTransitions +
-                45*wells + 29*filledAboveHoles + 29*rowsWithHoles +
-                20*heightDiff;
+        weights[0] = 99;
+        weights[1] = 10;
+        weights[2] = 20;
+        weights[3] = 10;
+        weights[4] = 0.25;
+        weights[5] = 59;
+        weights[6] = 59;
+        weights[7] = 45;
+        weights[8] = 29;
+        weights[9] = 29;
+        weights[10] = 20;
+
+        calculateWeight(features, weights);
+
+//        weights[0] = newWeights[0];
+//        weights[1] = newWeights[1];
+//        weights[2] = newWeights[2];
+//        weights[3] = newWeights[3];
+//        weights[4] = newWeights[4];
+//        weights[5] = newWeights[5];
+//        weights[6] = newWeights[6];
+//        weights[7] = newWeights[7];
+//        weights[8] = newWeights[8];
+//        weights[9] = newWeights[9];
+//        weights[10] = newWeights[10];
+
+        double value = weights[0] *holes + weights[1] *maxHeight + weights[2]*averageHeight +
+                weights[3]*bumpiness + weights[4]*completeLines +
+                weights[5]*rowTransitions + weights[6]*columnTransitions +
+                weights[7]*wells + weights[8]*filledAboveHoles + weights[9]*rowsWithHoles +
+                weights[10]*heightDiff;
 
         //System.out.println("The value");
         return(value);
     }
 
     // returns the array
-    public void calculateWeight(double[] array){
+    public void calculateWeight(double[] array, double[] weights){
 
 
         //call PSO here
-        PSOProcess pso = new PSOProcess(array);
-        pso.execute(array);
+        PSOProcess pso = new PSOProcess(array, weights);
+        double[] newWeights = pso.execute(array);
+
 
 
     }

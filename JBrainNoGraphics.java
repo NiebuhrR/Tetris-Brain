@@ -240,6 +240,8 @@ implements Brain {
         // cheap way to reset the board state
         board = new Board(WIDTH, HEIGHT + TOP_SPACE);
 
+
+
         count = 0;
         gameOn = true;
         gamePieces = 0;

@@ -42,7 +42,7 @@ public class JTetrisTrain extends JComponent {
 
     // When this is true, plays a fixed sequence of 100 pieces
     protected boolean testMode = false;
-    public final int TEST_LIMIT = 100;
+    public final int TEST_LIMIT = 1;
 
     // Board data structures
     protected Board board;
