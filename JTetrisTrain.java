@@ -262,7 +262,7 @@ public class JTetrisTrain extends JComponent {
     Before this is called, the piece is at some location in the board.
     This advances the piece to be at its next location.
 
-    Overriden by the brain when it plays.
+    Overriden by the braina when it plays.
      */
     public void tick(int verb) {
         if (!gameOn) return;

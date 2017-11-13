@@ -1,4 +1,6 @@
 #BlueJ class context
-comment0.params=board
-comment0.target=double\ rateBoard(Board)
-numComments=1
+comment0.target=BadBrain
+comment0.text=\n\ A\ joke\ implementation\ based\ on\ LameBrain\ --\n\ plays\ very\ badly.\n
+comment1.params=board
+comment1.target=double\ rateBoard(Board)
+numComments=2

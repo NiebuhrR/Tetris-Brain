@@ -85,7 +85,7 @@ public class LameBrain implements Brain {
         int completeLines = 0;
         int bumpiness = 0;
         int rowTransitions = 0;
-        int columnTransition = 0;
+        int columnTransitions = 0;
         int wells = 0;
         int filledAboveHoles = 0;
         int rowsWithHoles = 0;
@@ -162,11 +162,11 @@ public class LameBrain implements Brain {
                     }
                     // if the cell below it is empty
                     if (y > 0 && !board.getGrid(x, y - 1)) {
-                        columnTransition++;
+                        columnTransitions++;
                     }
                     // if the cell above it is empty
                     if (y < height - 1 && !board.getGrid(x, y + 1)) {
-                        columnTransition++;
+                        columnTransitions++;
                     }
                 }
             }
@@ -232,12 +232,49 @@ public class LameBrain implements Brain {
             }
         }
         int heightDiff = Math.abs(maxHeight - minHeight);
-        
-         return(99*holes + 10*maxHeight + 20*averageHeight + 
+
+        double[] features = new double[11];
+
+        features[0] = holes;
+        features[1] = maxHeight;
+        features[2] = averageHeight;
+        features[3] = bumpiness;
+        features[4] = completeLines;
+        features[5] = rowTransitions;
+        features[6] = columnTransitions;
+        features[7] = wells;
+        features[8] = filledAboveHoles;
+        features[9] = rowsWithHoles;
+        features[10] = heightDiff;
+
+
+
+        System.out.println(features[0]);
+
+        double value = 99*holes + 10*maxHeight + 20*averageHeight +
                 10*bumpiness + 0.25*completeLines +
-                59*rowTransitions + 59*columnTransition +
-                45*wells + 29*filledAboveHoles + 29*rowsWithHoles + 
-                20*heightDiff);
+                59*rowTransitions + 59*columnTransitions +
+                45*wells + 29*filledAboveHoles + 29*rowsWithHoles +
+                20*heightDiff;
+
+        //System.out.println("The value");
+        return(value);
     }
+
+    // returns the array
+    public double[] calculateWeight(double[] array){
+        double[] weights = new double[11];
+
+        //call PSO here
+
+
+
+
+
+
+        //return weights
+        return weights;
+    }
+
 }
 

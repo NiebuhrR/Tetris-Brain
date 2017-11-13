@@ -6,4 +6,6 @@ comment1.target=Brain.Move\ bestMove(Board,\ Piece,\ int,\ Brain.Move)
 comment1.text=\n\ Given\ a\ piece\ and\ a\ board,\ returns\ a\ move\ object\ that\ represents\n\ the\ best\ play\ for\ that\ piece,\ or\ returns\ null\ if\ no\ play\ is\ possible.\n\ See\ the\ Brain\ interface\ for\ details.\n
 comment2.params=board
 comment2.target=double\ rateBoard(Board)
-numComments=3
+comment3.params=array
+comment3.target=double[]\ calculateWeight(double[])
+numComments=4
