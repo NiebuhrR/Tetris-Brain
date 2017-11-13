@@ -247,9 +247,7 @@ public class LameBrain implements Brain {
         features[9] = rowsWithHoles;
         features[10] = heightDiff;
 
-
-
-        System.out.println(features[0]);
+        calculateWeight(features);
 
         double value = 99*holes + 10*maxHeight + 20*averageHeight +
                 10*bumpiness + 0.25*completeLines +
@@ -262,18 +260,14 @@ public class LameBrain implements Brain {
     }
 
     // returns the array
-    public double[] calculateWeight(double[] array){
-        double[] weights = new double[11];
+    public void calculateWeight(double[] array){
+
 
         //call PSO here
+        PSOProcess pso = new PSOProcess(array);
+        pso.execute(array);
 
 
-
-
-
-
-        //return weights
-        return weights;
     }
 
 }
